@@ -4,6 +4,7 @@ public class Domicilio {
 	private String domicilio;
 	private String provincia;
 	private String pais;
+	private String telefono;
 
 	public Domicilio() {
 	}
@@ -30,5 +31,13 @@ public class Domicilio {
 
 	public void setPais(String pais) {
 		this.pais = pais;
+	}
+
+	public String getTelefono() {
+		return telefono;
+	}
+
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
 	}
 }
